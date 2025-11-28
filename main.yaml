@@ -114,7 +114,7 @@
       comment: Scrap
       notes: Keep at least 3
   - _Material<Zapshrooms>:
-      comment: Scrao
+      comment: Scrap
       notes: Keep at least 2
   - _Material<Sunshrooms>:
       comment: Scrap
@@ -144,6 +144,7 @@
       notes: Do not eat
   - _Material<2 Silent Princess>:
       coord: [-2572.44, 307.32, 660.62]
+      comment: null
 
   - .dir(E.)
   - _Material<1 Rushroom>:
