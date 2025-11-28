@@ -175,18 +175,18 @@
   - _Korok::R60
 
   - WB to Bokoblins past river
-  - _Material::Weapon<Dragonbone Boko Club>:
+  - _Equipment::Weapon<Dragonbone Boko Club>:
       coord: [-2020.00, 268.98, -63.50]
       comment: null
+      icon: equipment
 
   - BTB to .loc(Hyrule Castle):
-  - Through unloaded gate:
-      icon: equipment
-      hide-icon-on-map: true
-      notes: Drop 5 Branches, Axe, and Traveler Bow while waiting for castle cutscene. If the gate loads then ESC in or run around the side entrance.
+      icon: location
+      coord: [-412.66, 182.53, -851.28]
+      notes: Drop 5 Branches, Axe, and Boko Bow.
+      
   - _Equipment::Bow<Falcon Bow>:
       comment: Against wall on upper level
-      coord: [-412.66, 182.53, -851.28]
   - _Chest<5 bomb arrows>:
       comment: Next to Falcon Bow
       hide-icon-on-map: true
