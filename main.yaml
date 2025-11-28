@@ -78,7 +78,7 @@
   - _Shrine::OwaDaim:
       comment: Stasis shrine
 
- - _Npc::SheikaMale<Old Man>:
+  - _Npc::SheikaMale<Old Man>:
       coord: [-925.03, 272.84, 2306.23]
       comment: Text option 2-1-1-2
 
