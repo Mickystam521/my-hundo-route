@@ -567,7 +567,7 @@
   - _Korok::T02:
       comment: Top of flight range
 
-    - Enter Medoh:
+  - Enter Medoh:
       icon: medoh-enter
       coord: [-3850.5,-2278.5]
       comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=6449))
