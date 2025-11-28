@@ -175,8 +175,8 @@
   - _Korok::R60
 
   - WB to Bokoblins past river
-      coord: [-2020.00, 268.98, -63.50]
   - _Material<Dragonbone Boko Club>:
+      coord: [-2020.00, 268.98, -63.50]
   - BTB to .loc(Hyrule Castle):
   - Through unloaded gate:
       icon: equipment
