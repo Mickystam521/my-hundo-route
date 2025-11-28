@@ -175,7 +175,7 @@
   - _Korok::R60
 
   - WB to Bokoblins past river
-  - _Material<Dragonbone Boko Club>:
+  - _Material::Weapon<Dragonbone Boko Club>:
       coord: [-2020.00, 268.98, -63.50]
       comment: null
 

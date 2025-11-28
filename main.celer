@@ -6,9 +6,10 @@ _project:
     - "ikurapan"
     - "辉文gege"
     - "秋红葉"
-  description: "100% Route using Great Eagle Bow with WMC"
+    - "mickystam521"
+  description: "100% Route for 1.8.2"
   name: 100% (OmeGEB)
-  url: https://celer.itntpiston.app/#/gh/sobolews/omegeb/v1
+  url: https://celer.itntpiston.app/#/gh/sobolews/omegeb/v2
   version: 1.0
 
 _config:
