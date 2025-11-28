@@ -88,7 +88,7 @@
       comment: Cryonis shrine
 
   - BTB to Magnesis
-  - _Shrine: :OmanAu:
+  - _Shrine::OmanAu:
     comment: Magnesis shrine
   
   - Stasis launch with slab from water
@@ -2999,7 +2999,7 @@
       comment: WARP
   
   - .dir(NE.)
-  - _Korok: :P18:
+  - _Korok::P18:
       comment: On Old Man's Hut
 
   - .dir(.NW)
