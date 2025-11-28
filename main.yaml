@@ -65,7 +65,7 @@
       comment: Food
       notes: Get more shrooms on Satori for scrap
 
-   - _Material<6 Peppers>:
+  - _Material<6 Peppers>:
       hide-icon-on-map: true
       comment: Scrap + Food
       notes: By gate above
