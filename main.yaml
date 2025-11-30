@@ -55,26 +55,27 @@
   - _Equipment::Shield<Pot Lid>:
       coord: [-952.34, 238.33, 1959.44]
 
-  - _Material<12 Peppers>:
-      hide-icon-on-map: true
-      comment: Scrap + Food
-      notes: You can eat up to 3 of them
-
   - _Material<2 Shrooms>:
       hide-icon-on-map: true
       comment: Food
       notes: Get more shrooms on Satori for scrap
 
+  - _Material<12 Peppers>:
+      hide-icon-on-map: true
+      comment: Scrap + Food
+      notes: 6 by camp, 6 up by gate. You can eat up to 3 of them
+
   - _Chest<5 Normal Arrows>:
-      comment: Go through gate to stasis
+      notes: Through gate past river
+      comment: Climb up to boko camp
       coord: [-1011.19, 287.02, 2155.60]
 
-  - Boko Bow:
+  - _Equipment::Bow<Boko Bow>:
       icon: bow
       hide-icon-on-map: true
-      comment: Get it from bokoblin
+      comment: Get it from Bokoblin
 
-  - Walk to shrine, clip in
+  - Climb to Stasis, clip in
   - _Shrine::OwaDaim:
       comment: Stasis shrine
 
@@ -83,7 +84,7 @@
       comment: Text option 2-1-1-2
 
   - Boulder ride
-  - BTB to shrine
+  - BTB to Cryonis
   - _Shrine::KehNamut:
       comment: Cryonis shrine
 
@@ -95,7 +96,7 @@
 
   - _Tower::GreatPlateau
 
-  - Jump down, walk to shrine
+  - Jump down, walk to Bombs
 
   - _Shrine::JaBaij:
       comment: Bombs shrine
@@ -162,7 +163,7 @@
   - _Chest<5 Ice Arrows>:
       coord: [-2198.98, 351.76, 509.92]
 
-  - .dir(N>)
+  - .dir(N)
   - _Material<8 Hearty Durians>:
       coord: [-2196.75, 410.21, 443.15]
       notes: Eat 1 right away, cook 4 in castle, and use 3 for IST scrap. You can get 2 more to eat if you want extra healing.
@@ -175,29 +176,29 @@
       comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=1469))
   - _Korok::R60
 
-  - WB to Bokoblins past river
+  - WB .dir(N.) to Bokoblins past river
   - _Equipment::Weapon<Dragonbone Boko Club>:
       coord: [-2020.00, 268.98, -63.50]
-      comment: null
+      comment: (.link([vod]https://youtu.be/htBmFmBjY7o?si=psG25JFQF30QEYzE&t=1601))
       icon: equipment
 
   - BTB to .loc(Hyrule Castle):
       icon: location
       coord: [-412.66, 182.53, -851.28]
-      notes: Drop 5 Branches, Axe, and Boko Bow.
       
   - _Equipment::Bow<Falcon Bow>:
       comment: Against wall on upper level
-  - _Chest<5 bomb arrows>:
+      notes: Drop 5 Branches, Axe, and Boko Bow.
+  - _Chest<5 Bomb Arrows>:
       comment: Next to Falcon Bow
       hide-icon-on-map: true
 
   - _Equipment::Weapon<Royal Claymore>:
       coord: [-377.44, 168.59, -870.37]
-      comment: Behind moblin
+      comment: Behind Moblin
   - _Equipment::Weapon<Royal Guard's Claymore>:
       hide-icon-on-map: true
-      comment: Sneakstrike the moblin
+      comment: Sneakstrike the Moblin
   - _Chest<Naydra Fang>:
       comment: Under stairs
 
@@ -250,7 +251,7 @@
       coord: [-254.52, 125.34, -193.39]
       notes: Get 1 spring, 1 shaft, 0-3 Screws. Pick up a Core if you get one. Do not pick up extra. Kill more stalkers if you don't get at least 1 Shaft + 1 Spring.
 
-  - .dir(E>)
+  - .dir(E.) + .dir(E) + Midair .dir(E)
   - _Material<4 Hyrule Bass>:
       comment: Bomb the water
       hide-icon-on-map: true
@@ -266,7 +267,7 @@
       comment: Ancient Core in chest (.link([vod]https://youtu.be/Aw14LJhXV-8&t=2068))
       notes: Skip Ancient Core if you already have one
 
-  - WB .dir(E>)
+  - WB .dir(E) + .dir(E)
   - _Discover<Goponga Village Ruins>:
       coord: [1564.5,358.5]
   - _Shrine::DakaTuss:
@@ -277,7 +278,7 @@
   - _Material<2 Nightshade>:
       coord: [1965.43, 269.69, 854.73]
       comment: null
-  - _Material<2 Fairy>:
+  - _Material<3 Fairy>:
       comment: null
   - _Material<1 Endura Carrot>:
       coord: [1977.61, 268.81, 824.60]
@@ -305,22 +306,16 @@
       hide-icon-on-map: true
       counter: .user-defined-split()
       notes: |
-        Follow these .link([Detailed IST Instructions]https://ist.pistonite.app/-/pastebin.com/raw/CVASmXgh)
+        Follow these .link([Detailed IST Instructions in the simulator]https://ist.pistonite.app/-/pastebin.com/raw/jZad6fEC) or .link([these in the powerpoint]https://docs.google.com/presentation/d/1PKrCyJG7wkZUabP6RQw0Iwd2RtmcHOzV8M8dsRv4MbE/edit?usp=sharing)
 
 - Hateno / Farosh:
 
+  - _Npc<Bolson + Hudson>:
+      coord: [3302.77, 239.88, 2302.60]
+      notes: Send Hudson to Tarrey Town, fully upgrade house.
+  
   - Eat speedfood:
       icon: material
-
-  - .dir(N)> + .dir(N) + BTB
-  - _Npc<Bolson>:
-      coord: [3302.77, 239.88, 2302.60]
-      comment: Talk once
-  - Cookpot:
-      icon: cook
-      hide-icon-on-map: true
-      comment: Maybe sleep or cook
-      notes: Make noon if it's raining. Cook 2 speedfoods (3 lotus + rushroom + fang) if you didn't cook in Kakariko. If you cook here, eat 1 speedfood and 1 stamina food. Keep 2 of each fang.
 
   - .dir(<N)
   - _Npc<Horned Statue>:
@@ -355,8 +350,8 @@
       notes: If less than 3 screws, upgrade sensor when you come back later
 
   - Run .dir(E)
-  - _Material<2 Apples>:
-      comment: null
+  - _Material<5 Apples>:
+      comment: On trees by lab
 
 
   - .dir(E) down
@@ -371,12 +366,7 @@
   - _Npc<Sheep Rustler lady>:
       coord: [3621.69, 283.36, 2098.13]
       comment: Koyin
-      notes: Choose option 2
-
-  - .dir(<W)
-  - _Npc<Bolson + Hudson>:
-      coord: [3302.77, 239.88, 2302.60]
-      notes: Send Hudson to Tarrey Town, fully upgrade house.
+      notes: Choose option 2 
 
   - Run .dir(E)
   - _Korok::N59:
@@ -389,7 +379,6 @@
   - _Material<1 Hearty Bass>:
       coord: [3011.06, 229.73, 2538.95]
       comment: null
-
 
   - .dir(W>)
   - _Korok::N50:
@@ -412,7 +401,25 @@
   - _Korok::D53
 
   - .dir(W) + .dir(S)
+
+  - Eat 20 stamina food:
+      icon: material
+      comment: All of page 2
+      notes: Make sure to have 39 food after that
+  
+  - Save and reload
+  
+  - Eat 10 stamina food:
+      icon: material
+      comment: After the greens in page 2
+      notes: You should have 40 food
+
   - _Korok::D58
+
+  - Drop 9 Koroks:
+     icon: korok
+     comment: Drop Bass if you can't hold the koroks, pick it up again afterwards
+     notes: (.link([Prompt Entanglement Inputs to hold korok seeds]https://imgur.com/SM1lRFn))
 
   - .dir(S>)
   - _Korok::D57
@@ -554,10 +561,10 @@
   - _Warp::Shrine::MoggLatan:
       comment: WARP
 
-  - .dir(NW)
+  - .dir(W) + Midair chain (.dir(NW) + .dir(N) + .dir(NW))
   - _Tower::Tabantha
 
-  - WB to Rito Village
+  - WB .dir(N>) to Rito Village
   - _Npc::Rito<Kaneli>:
       comment: Owl Elder
       coord: [-3627.20, 323.57, -1830.81]
@@ -570,10 +577,10 @@
   - _Korok::T02:
       comment: Top of flight range
 
-  - Enter Medoh:
+  - Vah Medoh:
       icon: medoh-enter
       coord: [-3850.5,-2278.5]
-      comment: (.link([vod]https://youtu.be/Aw14LJhXV-8&t=6449))
+      comment: (.link([vod]https://youtu.be/htBmFmBjY7o?si=HYeK8vSj34g0TZs3&t=6400))
       notes: |
         1 ancient arrow per cannon. Visual cues: .link([Left-Right]https://cdn.discordapp.com/attachments/293465650540838913/688224174937735188/a3.png), .link([Middle]https://cdn.discordapp.com/attachments/293465650540838913/688224173427785910/a4.png)
 
@@ -608,6 +615,16 @@
       icon: cook
       hide-icon-on-map: true
       notes: Ensure you have exactly 40 meals. Unpause and pause after eating.
+  
+  - Drop 9 Koroks:
+     icon: korok
+     comment: Image says to drop 10, just drop 9
+     notes: .link([Prompt Entanglement Inputs to hold korok seeds]https://imgur.com/SM1lRFn)
+ 
+  - Drop Slate:
+     icon: equipment
+     comment: Slide says to eat, just drop instead
+     notes: .link([Prompt Entanglement Inputs to hold slate]https://docs.google.com/presentation/d/1_x1TgluUOfYzo2eR-L68ObXuBVSsVbmMfghdUgv-Osg/edit?slide=id.g261b3b9031a_0_5#slide=id.g261b3b9031a_0_5)
 
   - WMC:
       movements:
@@ -617,7 +634,7 @@
             color: white
           - pop
       counter: .user-defined-split()
-      notes: Follow these .link([Detailed WMC Instructions (from line 168 onwards)]https://ist.pistonite.app/-/pastebin.com/raw/CVASmXgh)
+      notes: Follow these .link([Detailed WMC Instructions from line 178 onwards]https://ist.pistonite.app/-/pastebin.com/raw/jZad6fEC)
 
   - Eat speedfood:
       icon: cook
@@ -2327,7 +2344,7 @@
   - .dir(W.) + climb
   - _Tower::Woodland
 
-  - .dir(NW)
+  - .dir(N) + Midair .dir(NW) + .dir(W) from tree (get to center of Korok Forest) + .dir(.N)
 
   - _Discover<Lost Woods>:
       coord: [603.00, 293.50, -1908.50]
@@ -6844,7 +6861,7 @@
   - .dir(S) down
   - _Korok::K14
 
-  - .gale(GALE 2) + WB
+  - .gale(GALE 2) + WB .dir(.W)
   - _Korok::K09
 
   - _Shrine::RonaKachta:
@@ -6970,15 +6987,6 @@
       hide-icon-on-map: true
       icon: memory-final
 
-  - " "
-  - " "
-  - " "
-  - " "
-  - " "
-  - " "
-  - " "
-  - " "
-  - " "
   - " "
   - " "
   - " "
