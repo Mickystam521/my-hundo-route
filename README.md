@@ -1,2 +1,2 @@
-# my-hundo-route
+# hundo-new
 The BOTW 100% route but updated for 1.8.2
